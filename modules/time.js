@@ -30,4 +30,4 @@ const getFullDateTime = () => {
   return `${date}, ${time}`;
 };
 
-module.exports = { getCurrentTime, getFullDateTime };
+export default { getCurrentTime, getFullDateTime };
